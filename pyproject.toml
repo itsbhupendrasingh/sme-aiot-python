@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sme-aiot"
+version = "1.0.0"
+description = "SME AIoT SDK for Linux boards (Raspberry Pi, NVIDIA Jetson, Google Coral, Orange Pi, Banana Pi ...): the Arduino SME AIoT SDK in Python, the same calls and cloud protocol"
+readme = "README.md"
+requires-python = ">=3.6"   # Jetson Nano (JetPack 4, Ubuntu 18.04) has Python 3.6
+dependencies = ["paho-mqtt>=1.6"]
+authors = [{ name = "SME AIoT" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: System :: Networking",
+    "Topic :: Home Automation",
+]
+
+[project.urls]
+Homepage = "https://www.nuttyengineer.com/sdk/"
+Source = "https://github.com/itsbhupendrasingh/sme-aiot-python"
+Changelog = "https://github.com/itsbhupendrasingh/sme-aiot-python/blob/main/CHANGELOG.md"
+"Arduino SDK" = "https://github.com/itsbhupendrasingh/SMEAIoT"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["smeaiot", "smeiot"]   # smeiot: the old name, kept as an alias
