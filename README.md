@@ -17,6 +17,8 @@
 
 <p align="center">
   <a href="https://www.nuttyengineer.com/sdk/">SDK page</a> ·
+  <a href="https://www.nuttyengineer.com/docs/examples/">Examples</a> ·
+  <a href="https://www.nuttyengineer.com/project-builder/">Project Builder</a> ·
   <a href="https://github.com/itsbhupendrasingh/sme-aiot-python">Source</a> ·
   <a href="https://github.com/itsbhupendrasingh/sme-aiot-python/blob/main/CHANGELOG.md">Changelog</a> ·
   <a href="https://github.com/itsbhupendrasingh/SMEAIoT">Arduino SDK</a>
@@ -79,6 +81,12 @@ Firmware: 1.0.0
 [SME] First data sent - check the app graph
 ```
 
+## Next steps
+
+- 📘 **[Examples](https://www.nuttyengineer.com/docs/examples/)**: project templates for every board: the code, the parts, the wiring and the app widgets.
+- 🧩 **[Project Builder](https://www.nuttyengineer.com/project-builder/)**: pick a Linux board and parts, and get a complete SME AIoT program with the pins already set.
+- ⬇️ **[SDK page](https://www.nuttyengineer.com/sdk/)**: both SDKs, what's new, checksums and older versions.
+
 ## Why this SDK
 
 - **One set of calls**: write it once for a NuttyFi board, use the same calls on a Raspberry Pi.
@@ -94,7 +102,7 @@ Firmware: 1.0.0
 | Pi 5, Pi 4 B, Pi 3 B, Pi Zero 2 W | Jetson Nano, Jetson Orin | Coral Dev Board | Orange Pi, Banana Pi, Radxa ROCK, ODROID, any Linux computer |
 
 GPIO: `gpiozero` on a Raspberry Pi; on Jetson, Coral, Orange Pi and others their own GPIO library or Adafruit Blinka.
-The Nutty Engineer Project Builder writes a complete program, with the parts and pins, for each of these boards.
+The [Project Builder](https://www.nuttyengineer.com/project-builder/) writes a complete program, with the parts and pins, for each of these boards.
 
 ## From an Arduino sketch to Python
 
@@ -128,6 +136,8 @@ The Nutty Engineer Project Builder writes a complete program, with the parts and
 
 Get them from the [source](https://github.com/itsbhupendrasingh/sme-aiot-python/tree/main/examples), fill in the
 three values at the top, and run `python3 examples/SendValues/SendValues.py`.
+
+More project templates, with the parts and the wiring: the [Examples page](https://www.nuttyengineer.com/docs/examples/).
 
 <details>
 <summary><b>Run it as a service (starts with the board)</b></summary>
