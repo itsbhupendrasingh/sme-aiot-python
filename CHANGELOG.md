@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0.post1 (2026-11-23): new PyPI page
+
+- The same SDK 1.0.0 code; only the description page is new (banner, badges, `pip install sme-aiot`).
+
 ## 1.0.0 (2026-11-23): first public release
 
 - Matches the Arduino SME AIoT SDK 1.0.0: the same calls, the same cloud protocol.
